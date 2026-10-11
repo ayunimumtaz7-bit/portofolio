@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A'yuni Ikhtiara Mumtaz | Portofolio Web Developer</title>
+    <meta name="description" content="Portofolio Web Developer - A'yuni Ikhtiara Mumtaz, Mahasiswa D3 Teknik Informatika PENS">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-mark">A</span>
+                <span class="logo-text">A'yuni<span>.dev</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Buka Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. HOME / HERO -->
+    <section class="hero-section" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span> Terbuka untuk Kesempatan Kerja & Magang
+                </div>
+                <h1 class="hero-title">
+                    Halo, saya <span class="highlight">A'yuni Ikhtiara Mumtaz</span>
+                </h1>
+                <p class="hero-role">Web Developer & Mahasiswa Teknik Informatika</p>
+                <p class="hero-tagline">
+                    "Membangun antarmuka web yang rapi, fungsional, dan terhubung dengan data."
+                </p>
+                <p class="hero-desc">
+                    Fokus pada pengembangan antarmuka web menggunakan HTML, CSS, dan JavaScript serta pemahaman dalam integrasi basis data MySQL.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fa-solid fa-laptop-code"></i> Lihat Proyek
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fa-regular fa-envelope"></i> Hubungi Saya
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="avatar-card">
+                    <div class="avatar-circle">
+                        <i class="fa-solid fa-user-code"></i>
+                    </div>
+                    <div class="floating-badge badge-top">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Frontend Focus</span>
+                    </div>
+                    <div class="floating-badge badge-bottom">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>PENS Surabaya</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. ABOUT -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Mengenal Lebih Dekat</span>
+                <h2 class="section-title">Tentang Saya</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card main-about">
+                    <p class="about-text">
+                        Saya adalah mahasiswa semester 3 program studi <strong>D3 Teknik Informatika di Politeknik Elektronika Negeri Surabaya (PENS)</strong> yang memiliki minat kuat pada pengembangan aplikasi web, khususnya pada sisi antarmuka (<em>Frontend Development</em>). Selama masa perkuliahan, saya berfokus mengasah kemampuan merancang struktur halaman web yang bersih dan menulis interaksi logika yang mulus menggunakan <strong>HTML, CSS, dan JavaScript</strong>.
+                    </p>
+                    <p class="about-text">
+                        Selain berfokus pada pengalaman pengguna, saya terbiasa menghubungkan antarmuka dengan basis data <strong>MySQL</strong> serta memahami alur <strong>REST API</strong>. Saya senang memecahkan masalah seputar penyajian data—seperti sistem inventaris dan pemantauan harga komoditas pasar—agar tersaji dengan rapi, informatif, dan mudah diakses oleh pengguna.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <div>
+                                <strong>Target Role</strong>
+                                <p>Web Developer / Frontend Developer</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-university"></i>
+                            <div>
+                                <strong>Pendidikan</strong>
+                                <p>D3 Teknik Informatika - PENS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats-card">
+                    <div class="stat-box">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Semester Tempuh</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Proyek Dikerjakan</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Dedikasi Belajar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SKILLS -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Keahlian Teknis</span>
+                <h2 class="section-title">Skill & Teknologi</h2>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category-card">
+                    <div class="skill-cat-header">
+                        <div class="cat-icon"><i class="fa-solid fa-desktop"></i></div>
+                        <h3>Frontend</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span><i class="fa-brands fa-html5"></i> HTML</span>
+                                <span class="skill-tag">Struktur Web</span>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                                <span class="skill-tag">Tata Letak & Gaya</span>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                                <span class="skill-tag">Interaktivitas & Logika</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Programming Languages -->
+                <div class="skill-category-card">
+                    <div class="skill-cat-header">
+                        <div class="cat-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span><i class="fa-brands fa-square-js"></i> JavaScript</span>
+                                <span class="skill-tag">Web Scripting</span>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span><i class="fa-brands fa-python"></i> Python</span>
+                                <span class="skill-tag">Backend & Logika Data</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Database -->
+                <div class="skill-category-card">
+                    <div class="skill-cat-header">
+                        <div class="cat-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>Database</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span><i class="fa-solid fa-server"></i> MySQL</span>
+                                <span class="skill-tag">Relational Database</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- API & Integration -->
+                <div class="skill-category-card">
+                    <div class="skill-cat-header">
+                        <div class="cat-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>API</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span><i class="fa-solid fa-arrow-right-arrow-left"></i> REST API</span>
+                                <span class="skill-tag">Data Exchange</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Tools & DevOps -->
+                <div class="skill-category-card">
+                    <div class="skill-cat-header">
+                        <div class="cat-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3>Tools & Database Mgmt</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span><i class="fa-solid fa-table"></i> phpMyAdmin</span>
+                                <span class="skill-tag">DB Administration</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PROJECTS -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Portofolio Hasil Kerja</span>
+                <h2 class="section-title">Project Unggulan</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Featured -->
+                <article class="project-card featured">
+                    <div class="project-badge-top">
+                        <span class="badge-featured"><i class="fa-solid fa-star"></i> Featured / Prioritas Utama</span>
+                        <span class="badge-type">Frontend Development</span>
+                    </div>
+                    
+                    <div class="project-body">
+                        <h3 class="project-title">Sistem Informasi Inventaris & Harga Komoditas Pangan (PASARDA)</h3>
+                        <p class="project-overview">
+                            Aplikasi web yang dirancang untuk memantau fluktuasi harga komoditas pasar daerah dan menyajikan data inventaris harga secara terpusat dan mudah diakses.
+                        </p>
+
+                        <div class="project-details-grid">
+                            <div class="detail-block">
+                                <span class="detail-label"><i class="fa-solid fa-triangle-exclamation"></i> Masalah</span>
+                                <p>Masyarakat dan admin kesulitan melihat dan memperbarui harga komoditas pangan di berbagai pasar daerah yang terpisah secara cepat.</p>
+                            </div>
+                            <div class="detail-block">
+                                <span class="detail-label"><i class="fa-solid fa-lightbulb"></i> Solusi</span>
+                                <p>Membangun antarmuka web dengan login admin untuk update data, visualisasi kategori komoditas, dan perbandingan harga di beberapa pasar.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-features">
+                            <strong>Fitur Utama:</strong>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Form login aman khusus admin</li>
+                                <li><i class="fa-solid fa-check"></i> Katalog harga komoditas pangan terkini</li>
+                                <li><i class="fa-solid fa-check"></i> Pengelompokan berdasarkan kategori produk</li>
+                                <li><i class="fa-solid fa-check"></i> Menampilkan informasi dari beberapa pasar daerah</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-role-box">
+                            <strong>Peran Saya:</strong> Frontend Developer (Merancang antarmuka login, struktur tata letak katalog data komoditas, dan integrasi tampilan dengan database).
+                        </div>
+
+                        <div class="tech-stack-tags">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="link-notice">
+                                <i class="fa-solid fa-circle-info"></i> Repositori & Live Demo: <em>[Belum diisi]</em>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-badge-top">
+                        <span class="badge-type">API / Backend</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h3 class="project-title">REST API untuk Aplikasi Mobile</h3>
+                        <p class="project-overview">
+                            Pengembangan antarmuka pemrograman aplikasi (REST API) untuk mendukung kebutuhan pertukaran data antara aplikasi mobile dan server database.
+                        </p>
+
+                        <div class="project-details-grid">
+                            <div class="detail-block">
+                                <span class="detail-label"><i class="fa-solid fa-triangle-exclamation"></i> Masalah</span>
+                                <p>Aplikasi mobile memerlukan jalur komunikasi data yang terstandar dan aman untuk mengambil serta menyimpan data.</p>
+                            </div>
+                            <div class="detail-block">
+                                <span class="detail-label"><i class="fa-solid fa-lightbulb"></i> Solusi</span>
+                                <p>Menyediakan endpoint REST API terstruktur yang terhubung langsung dengan basis data MySQL.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-role-box">
+                            <strong>Peran Saya:</strong> Backend Developer (Merancang endpoint REST API dan integrasi basis data MySQL).
+                        </div>
+
+                        <div class="tech-stack-tags">
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="link-notice">
+                                <i class="fa-solid fa-circle-info"></i> Repositori & Dokumentasi: <em>[Belum diisi]</em>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-badge-top">
+                        <span class="badge-type">Data / Backend</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h3 class="project-title">Sistem Monitoring Data</h3>
+                        <p class="project-overview">
+                            Sistem backend yang difungsikan untuk menerima aliran data monitoring, memprosesnya, dan menyimpannya secara terstruktur ke dalam database.
+                        </p>
+
+                        <div class="project-details-grid">
+                            <div class="detail-block">
+                                <span class="detail-label"><i class="fa-solid fa-triangle-exclamation"></i> Masalah</span>
+                                <p>Kebutuhan mekanisme backend yang andal untuk menangkap data log atau monitoring secara konsisten.</p>
+                            </div>
+                            <div class="detail-block">
+                                <span class="detail-label"><i class="fa-solid fa-lightbulb"></i> Solusi</span>
+                                <p>Mengembangkan skrip backend berbasis Python untuk menangkap data dan menyimpannya ke MySQL melalui phpMyAdmin.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-role-box">
+                            <strong>Peran Saya:</strong> Backend Developer (Membangun logika penerimaan data, konfigurasi skema tabel, dan penyimpanan data).
+                        </div>
+
+                        <div class="tech-stack-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">phpMyAdmin</span>
+                        </div>
+
+                        <div class="project-footer">
+                            <div class="link-notice">
+                                <i class="fa-solid fa-circle-info"></i> Repositori: <em>[Belum diisi]</em>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. EXPERIENCE -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Jejak Langkah</span>
+                <h2 class="section-title">Pengalaman Proyek Akademik</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-role">Frontend Web Contributor</span>
+                            <span class="timeline-badge">Semester 3</span>
+                        </div>
+                        <h3 class="timeline-title">Mata Kuliah: Workshop Pemrograman Framework</h3>
+                        <p class="timeline-institution">Politeknik Elektronika Negeri Surabaya (PENS)</p>
+                        <p class="timeline-desc">
+                            Berkolaborasi dalam pengembangan web <strong>PASARDA (Harga Pangan Pasar Daerah)</strong>. Bertanggung jawab pada sisi frontend: mendesain form login admin, menyusun tampilan katalog harga pangan, menyortir kategori komoditas, dan menampilkan informasi beberapa pasar daerah secara terstruktur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. EDUCATION -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Latar Belakang Akademik</span>
+                <h2 class="section-title">Pendidikan</h2>
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="edu-info">
+                    <span class="edu-period">2025 - Sekarang (Semester 3)</span>
+                    <h3 class="edu-degree">D3 Teknik Informatika</h3>
+                    <h4 class="edu-school">Politeknik Elektronika Negeri Surabaya (PENS)</h4>
+                    <p class="edu-desc">
+                        Fokus pembelajaran mencakup Pengembangan Aplikasi Web, Pemrograman Berorientasi Objek, Desain Basis Data Relasional, serta Struktur Data dan Algoritma.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CONTACT -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Mari Terhubung</span>
+                <h2 class="section-title">Kontak & Informasi</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p class="contact-val">ayunmumtaz7@gmail.com</p>
+                    <span class="contact-hint">Hubungi via email untuk kolaborasi</span>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p class="contact-val">[Belum diisi - Profil LinkedIn]</p>
+                    <span class="contact-hint">Koneksi jaringan profesional</span>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p class="contact-val">[Belum diisi - Profil GitHub]</p>
+                    <span class="contact-hint">Lihat repositori kode proyek</span>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                    <h3>WhatsApp</h3>
+                    <p class="contact-val">085232468790</p>
+                    <span class="contact-hint">Komunikasi langsung & cepat</span>
+                </div>
+            </div>
+
+            <div class="contact-box-prompt">
+                <p>
+                    Saya terbuka untuk kesempatan kerja magang, proyek web, dan posisi junior web developer. Jangan ragu untuk mengirimkan pesan!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 <strong>A'yuni Ikhtiara Mumtaz</strong>. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+            <p class="footer-sub">Politeknik Elektronika Negeri Surabaya (PENS)</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
